@@ -6,7 +6,7 @@ import { map } from "rxjs/operators";
 
 @Injectable()
 export class EmployeeService {
-  employees: Observable<Employee[]>;
+//  employees: Observable<Employee[]>;
   objectId: string[] = []; //array to store the firebase object id
   count: number = 0; //count to keep index of the objectId array
   deletes: number = 0;
